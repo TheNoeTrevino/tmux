@@ -11,6 +11,5 @@ So hjkl -> jkl;
 > ctrl+;. Here is how to do it in kitty:
 >
 > ``` kitty
-> 
 > map ctrl+semicolon send_text all \x1b[59;5u
 > ```

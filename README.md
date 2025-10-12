@@ -13,3 +13,11 @@ So hjkl -> jkl;
 > ``` kitty
 > map ctrl+semicolon send_text all \x1b[59;5u
 > ```
+
+## Important ones to remember
+
+Prefix + $: rename session 
+Prefix + ,: rename window 
+Prefix + w: list sessions
+Prefix + c: create new tab
+Prefix + T: list tmux session to connect to 

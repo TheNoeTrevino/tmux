@@ -1,5 +1,11 @@
 # Tmux config
 
+## Installation 
+
+``` bash
+git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+```
+
 ## Mappings 
 
 I like my point to be on `j`, a lot. 
@@ -21,3 +27,4 @@ Prefix + ,: rename window
 Prefix + w: list sessions
 Prefix + c: create new tab
 Prefix + T: list tmux session to connect to 
+

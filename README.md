@@ -26,5 +26,18 @@ Prefix + $: rename session
 Prefix + ,: rename window 
 Prefix + w: list sessions
 Prefix + c: create new tab
-Prefix + T: list tmux session to connect to 
+Prefix + t: list tmux session to connect to 
 
+
+### Keycode issues
+
+C-; has issues. In windows terminal, this is the fix: 
+
+``` json
+{
+    "id": "User.sendInput.AC260877",
+    "keys": "ctrl+vk(186)"
+}
+  ```
+
+For some reason this lets us input c-; correctly? Just rolling with it

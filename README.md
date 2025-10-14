@@ -25,12 +25,12 @@ So hjkl -> jkl;
 > ```
 >
 > Microsoft Terminal:
->``` json
->{
->    "id": "User.sendInput.AC260877",
->    "keys": "ctrl+vk(186)"
->}
->  ```
+> ``` json
+> {
+>     "id": "User.sendInput.AC260877",
+>     "keys": "ctrl+vk(186)"
+> }
+> ```
 >
 
 ## Important ones to remember

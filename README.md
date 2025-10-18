@@ -40,3 +40,4 @@ Prefix + ,: rename window
 Prefix + w: list sessions
 Prefix + c: create new tab
 Prefix + t: list tmux session to connect to 
+Prefix + :, join-pane -t <window-id>: connect this to this window
